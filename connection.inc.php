@@ -1,8 +1,8 @@
 <?php
 session_start();
 $con = mysqli_connect("bgkkd1y1hccj1maba5na-mysql.services.clever-cloud.com", "unhvl09jg9658o3o", "TYlrBjCJcQbQsPlJJUxv", "bgkkd1y1hccj1maba5na", 3306);
-define('SERVER_PATH', $_SERVER['DOCUMENT_ROOT'] . '/spring22-project/main/');
-define('SITE_PATH', 'http://localhost/spring22-project/main/');
+define('SERVER_PATH', $_SERVER['DOCUMENT_ROOT'] . '/');
+define('SITE_PATH', 'https://php-sql-project.herokuapp.com/');
 
 define('INSTAMOJO_REDIRECT', SITE_PATH . 'payment_complete.php');
 
